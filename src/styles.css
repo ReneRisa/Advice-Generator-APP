@@ -1,0 +1,101 @@
+#App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: hsl(218, 23%, 16%);
+  padding: 10%;
+}
+#div {
+}
+
+#row {
+  width: 60%;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 3%;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 800;
+}
+
+.ptag {
+  color: white;
+  font-size: 20px;
+  font-family: Manrope;
+  font-weight: 800;
+}
+
+#button {
+  background-color: hsl(150, 100%, 66%);
+  padding: 7%;
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Clip the image to fit the circular shape */
+  width: 20%;
+  height: auto;
+  margin-bottom: -35px;
+  cursor: pointer;
+}
+
+#img {
+  width: auto; /* Make the image fill the circular container */
+  height: auto;
+}
+
+@media (max-width: 650px) {
+  #row {
+    width: 100%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 3%;
+    margin-bottom: 50px;
+  }
+  .ptag {
+    color: white;
+    font-size: 20px;
+    font-family: Manrope;
+    font-weight: 800;
+  }
+  .title {
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 800;
+  }
+}
+@media (min-width: 927px) {
+  #row {
+    width: 50%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 3%;
+    margin-bottom: 50px;
+  }
+  .ptag {
+    color: white;
+    font-size: 22px;
+    font-family: Manrope;
+    font-weight: 800;
+  }
+  .title {
+    color: hsl(150, 100%, 66%);
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 800;
+  }
+  #button {
+    background-color: hsl(150, 100%, 66%);
+    padding: 7%;
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Clip the image to fit the circular shape */
+    width: 20%;
+    height: auto;
+    margin-bottom: -45px;
+    cursor: pointer;
+  }
+
+  #img {
+    width: 70%; /* Make the image fill the circular container */
+    height: auto;
+  }
+}
